@@ -14,7 +14,7 @@ chrome.runtime.sendMessage(
 
       // if find simyaNum from the response then change color to 'red'
       if(response.find(ret => ret === simyaNum) != undefined)  
-        simyaArticleList[i].style.color ="red";
+        simyaArticleList[i].style.color ="gray";
     }
   }
 );
