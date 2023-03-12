@@ -1,0 +1,16 @@
+{
+   "manifest_version": 2,
+   "name": "arca.live history extension",
+   "description": "history utility",
+   "version": "1.0",
+   "author": "h3avyup1oder",
+   "permissions": [ "history","tabs","scripting","activeTab", "<all_urls>" ],
+   "background": {
+      "scripts": ["bg.js"],
+      "persistent": false
+   },
+   "content_scripts": [{"matches": ["https://arca.live/*"], "js": ["contentscript.js"]}],
+   "icons": {
+      "128": "arca-128.png"
+   }
+}

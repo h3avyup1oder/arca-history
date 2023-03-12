@@ -1,2 +1,7 @@
-# arca-history
- arcalive history utility
+# arcalive history extension
+
+1. chrome://extensions/으로 들어갑니다.
+2. 오른쪽 상단에 개발자 모드를 클릭합니다.
+3. github에서 받은 프로그램의 압축을 해제합니다. (휴대폰은 zip으로 가능합니다)
+4. "압축 해제된 확장 프로그램을 로드합니다." 버튼을 클릭하세요.
+5. 압축 해제한 폴더를 등록합니다.
